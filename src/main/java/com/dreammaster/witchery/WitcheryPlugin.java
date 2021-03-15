@@ -150,7 +150,7 @@ public class WitcheryPlugin extends BasePluginWitchery {
 
     @Override
     public boolean init() {
-
+    /*
         //remove a Spinning Wheel recipes
         SpinningWheel.removeRecipe(Witchery.Items.GENERIC.itemGoldenThread.createStack(3), new ItemStack(Blocks.hay_block), Witchery.Items.GENERIC.itemWhiffOfMagic.createStack(1));
         SpinningRecipes.instance().recipes.remove(SpinningWheel.getRecipe(new ItemStack(Items.string, 8, 0), new ItemStack[0]));
@@ -176,7 +176,8 @@ public class WitcheryPlugin extends BasePluginWitchery {
         addBrewRecipe(1000, new ItemStack(Witchery.Items.CHALK_GOLDEN), new ItemStack(Witchery.Items.CHALK_RITUAL), Witchery.Items.GENERIC.itemMandrakeRoot.createStack(), GT_ModHandler.getModItem("gregtech","gt.metaitem.01",1L, 2086), Witchery.Items.GENERIC.itemDiamondVapour.createStack());
         addBrewRecipe(2000, new ItemStack(Witchery.Items.CHALK_INFERNAL), new ItemStack(Witchery.Items.CHALK_RITUAL), new ItemStack(Items.nether_wart), new ItemStack(Items.blaze_rod), new ItemStack(Items.nether_star));
         addBrewRecipe(4000, new ItemStack(Witchery.Items.CHALK_OTHERWHERE), new ItemStack(Witchery.Items.CHALK_RITUAL), GT_ModHandler.getModItem("gregtech","gt.metaitem.01",1L, 2533), GT_ModHandler.getModItem("HardcoreEnderExpansion","end_powder",1L), Witchery.Items.GENERIC.itemTearOfTheGoddess.createStack(), GT_ModHandler.getModItem("dreamcraft","item.ManyullynCrystal",1L, 0));
-
+	*/
+    	
         /*
         // examples:
         // add an oven recipe

@@ -277,7 +277,7 @@ public class MainRegistry
             new GregTechPlusPlusAbandonedAspectsFix();
         }
 
-        if (Loader.isModLoaded("witchery"))
+        if (Loader.isModLoaded("witchery") && Loader.isModLoaded("WitcheryExtras"))
         	new WitcheryPlugin();
 
         if (CoreModConfig.ModLoginMessage_Enabled)

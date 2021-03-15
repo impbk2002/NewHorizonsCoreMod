@@ -135,6 +135,10 @@ public class OreDictHandler {
 		for (int i = 0; i < OreDictionary.getOres("blockOlivine").size(); i++) {
 			OreDictionary.registerOre("blockPeridot", OreDictionary.getOres("blockOlivine").get(i));
 		}
+		if(Loader.isModLoaded("ThaumicTinkerer")) {
+			OreDictionary.registerOre("ingotIchorium", GT_ModHandler.getModItem("ThaumicTinkerer", "kamiResource", 1L, 2));
+			OreDictionary.registerOre("nuggetIchorium", GT_ModHandler.getModItem("ThaumicTinkerer", "kamiResource", 1L, 3));
+		}
 	}
 	
 	public static void register_all() {
